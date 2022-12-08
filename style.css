@@ -1,14 +1,13 @@
-/* .vrac {
-    "X" #000 #fff #fff 2px solid 0 0 0 0 0 100% 100% 100% 1rem 1rem 1rem 2px
-    solid #fff 2rem 2rem 2rem 50% absolute auto background-color background-color
+ /* .vrac { 2rem 
+    50% absolute auto background-color background-color
     block border border border-radius bottom center center color content cursor
     display display fixed font-family grid height height height left line-height 
     margin max-width padding place-content pointer position position
     rgba(0,0,0,0.9) right right sans-serif text-align top top width width
-    } */
+    }  */
     .overlay {
-        display: fixed;/* Sit on top of the page content */
-        width: 100%;/* Full width (cover the whole page) */
+        position: fixed;/* Sit on top of the page content */
+        max-width: 100%;/* Full width (cover the whole page) */
         height: 100%;/* Full height (cover the whole page) */
         top: 0;/* Stay at the top */
         left: 0;/* Stay at the left */
@@ -26,7 +25,7 @@
         background-color: black;/* Black background color */
         font-family: sans-serif;/* Font family "sans-serif" */
         text-align: center;/* Centered text */
-        line-height: normal;/* Line height ( idem height ) */
+        line-height: 2rem;/* Line height ( idem height ) */
         display: block;/* Display as a block */
         position: absolute;/* Position absolute */
         top: 1rem;/* 1rem from the top */
